@@ -7,6 +7,7 @@ import DpiServices from "../components/DpiServices";
 import DpiWhy from "../components/DpiWhy";
 import DpiFooter from "../components/DpiFooter";
 import DpiCopyright from "../components/DpiCopyright";
+import DpiCarruselGaleria from "../components/DpiCarruselGaleria";
 
 const DpiDpi = () => {
   return (
@@ -30,7 +31,9 @@ const DpiDpi = () => {
         <section className="container__why">
           <DpiWhy />
         </section>
-        <section className="gallery__section">AQUI VA LA GALERIA</section>
+        <section className="gallery__section">
+          <DpiCarruselGaleria />
+        </section>
         <footer>
           <DpiFooter />
         </footer>

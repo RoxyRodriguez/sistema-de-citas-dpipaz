@@ -2,17 +2,14 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faWhatsapp,
-  faTwitter,
-  faFacebookF,
-  faInstagram,
+  
 } from "@fortawesome/free-brands-svg-icons";
 
 import {
   faEnvelope,
   faMapMarker,
   faPhone,
-  faHandHoldingMedical,
-  faMapMarked,
+ 
 } from "@fortawesome/free-solid-svg-icons";
 
 const DpiCardsInformation = () => {
