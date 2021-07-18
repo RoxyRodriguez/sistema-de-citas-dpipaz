@@ -1,7 +1,6 @@
 import React from "react";
-import {NavLink} from "react-router-dom"
-
-const CitaMenu = () => {
+import { NavLink } from "react-router-dom";
+const ServicioMenu = () => {
   return (
     <>
       <nav>
@@ -46,4 +45,4 @@ const CitaMenu = () => {
   );
 };
 
-export default CitaMenu;
+export default ServicioMenu;

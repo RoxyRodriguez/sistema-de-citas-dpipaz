@@ -1,14 +1,15 @@
 import React from "react";
+import {NavLink} from 'react-router-dom'
 
 const DpiHeader = () => {
   return (
     <header>
-      <div className="header-content">
+      <div class="header-content">
         <h1>
-          BIENVENIDOS A <br /> <span> DPI PAZ</span>
+          BIENVENIDOS A <br /> <span> Diagnóstico por Imágenes PAZ</span>
         </h1>
         <p>"Entendemos la Imagen que Refleja tu Salud"</p>
-        <a href="#">Reservar Cita</a>
+        <NavLink to={"/citas/reservar"}>Reservar Cita</NavLink>
       </div>
     </header>
   );

@@ -1,9 +1,10 @@
 import React from "react";
 import {NavLink} from "react-router-dom"
 
-const DpiMenu = () => {
+const ServiciosMenu = () => {
   return (
-    <nav>
+    <div>
+      <nav>
       <figure>
         <NavLink to={"/dpi/dpi"}>
           <img src="/images/logo-dpipaz.png" alt="logo-dpipaz" />
@@ -39,7 +40,8 @@ const DpiMenu = () => {
         </li>
       </ul>
     </nav>
+    </div>
   );
 };
 
-export default DpiMenu;
+export default ServiciosMenu;

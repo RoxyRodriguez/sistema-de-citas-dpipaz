@@ -11,6 +11,8 @@ import {
   faPhone,
  
 } from "@fortawesome/free-solid-svg-icons";
+import {NavLink} from 'react-router-dom'
+
 
 const DpiCardsInformation = () => {
   return (
@@ -20,9 +22,9 @@ const DpiCardsInformation = () => {
         <p className="card__info">
           Ahora puedes reservar tu Cita desde la Comodidad de tu Hogar
         </p>
-        <a href="#" className="buttonCard">
+        <NavLink to={"/citas/reservar"} className="buttonCard">
           Click aquí
-        </a>
+        </NavLink>
       </div>
       <div className="card">
         <h2 className="card__title">contacto</h2>

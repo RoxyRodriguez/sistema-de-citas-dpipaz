@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route, Switch } from 'react-router-dom'
+import { Redirect, Route, Switch } from 'react-router-dom'
 import DpiDpi from './pages/DpiDpi'
 
 const DpiRouter = () => {
@@ -7,6 +7,7 @@ const DpiRouter = () => {
         <>
             <Switch> 
                 <Route path="/dpi/dpi" component={DpiDpi} />
+                <Redirect to = "/dpi/dpi" />
             </Switch>
         </>
     )

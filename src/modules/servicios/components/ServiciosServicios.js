@@ -2,13 +2,10 @@ import React from "react";
 import iconoDoctor from "./../../../assets/images/doctor.png";
 import { NavLink } from "react-router-dom";
 
-const DpiServices = () => {
+const ServiciosServicios = () => {
   return (
     <>
       <div className="s-heading">
-        <h1>
-          Nuestros <span>Servicios</span>
-        </h1>
         <p>
           Contamos con tres servicios, además te brindamos servicios de alta
           calidad, con equipos de última tecnología y especialistas
@@ -62,4 +59,4 @@ const DpiServices = () => {
   );
 };
 
-export default DpiServices;
+export default ServiciosServicios;
